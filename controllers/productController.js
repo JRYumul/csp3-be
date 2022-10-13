@@ -1,5 +1,6 @@
 const Product = require("../models/Product");
 
+
 module.exports.getAll = () => {
 	return Product.find().then(result => {
 		return result;
